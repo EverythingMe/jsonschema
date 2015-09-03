@@ -37,6 +37,8 @@ type Type struct {
 	Default              interface{}      `json:"default,omitempty"`
 	Title                string           `json:"title,omitempty"`
 	Description          string           `json:"description,omitempty"`
+	ReadOnly             bool             `json:"readonly,omitempty"`
+	PropertyOrder        int              `json:"propertyOrder,omitempty"`
 }
 
 type Schema struct {
